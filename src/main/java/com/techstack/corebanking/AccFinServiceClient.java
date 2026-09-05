@@ -31,6 +31,7 @@ public class AccFinServiceClient {
 
         FCUBSHEADERType fcubsHeader = requestUtil.createHeader();
 
+        fcubsMainHeader.setFCUBSHEADER(fcubsHeader);
         XMLGregorianCalendar fromdate;
         XMLGregorianCalendar todate;
         fromdate = DataConverterXmlGre.convertToXmlCalendar(accstmtrequest.getFrmdt());
