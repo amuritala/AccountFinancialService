@@ -139,7 +139,7 @@
 
 				<configuration>
 
-					<packageName>com.bayeesoft.AccFinService.stub</packageName>
+					<packageName>com.bayeesoft.accfinservice.stub</packageName>
 
 					<wsdlUrls>
 
